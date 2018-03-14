@@ -1,6 +1,6 @@
-Null-enforcer
+# Null-enforcer
 
-Inserts Object.requireNonNull() checks into code based on the existence of @Nullable/@NotNull annotations
+Inserts `Object.requireNonNull()` checks into code based on the existence of @Nullable/@NotNull annotations
 
     java AddNullEnforcement <pathToJar>
     
@@ -33,3 +33,4 @@ Notes:
 - when running it, because stack maps must be recomputed, you need to include the classpath entries used to build the jar
   being 'modified'
 - hasn't had a lot of testing!
+- Should include parameter names in null checks but needs more work for that
