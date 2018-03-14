@@ -32,5 +32,6 @@ Notes:
   those packages not marked @Nullable
 - when running it, because stack maps must be recomputed, you need to include the classpath entries used to build the jar
   being 'modified'
-- hasn't had a lot of testing!
 - Should include parameter names in null checks but needs more work for that
+- It ignores class files coming from .kt sources
+- hasn't had a lot of testing!
